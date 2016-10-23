@@ -52,7 +52,7 @@ body {
 .box h1, .big-box h1  {
   font-family: 'Creepster', sans-serif;
 }
-.question_container {
+.question_container h1, .question_container h2 {
   font-family: 'Creepster', sans-serif;
   font-size:35px;
 }
@@ -60,6 +60,7 @@ body {
   width: 50px !important;
   height: 50px !important;
   padding:0;
+  line-height: 50px !important;
 }
 #send_question { display: inline-block; float:right;}
 .question p {
